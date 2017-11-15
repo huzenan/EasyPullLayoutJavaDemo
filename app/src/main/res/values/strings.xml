@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EasyPullLayoutJava</string>
+
+    <string name="pull_to_load_history">Pull Down to Refresh</string>
+    <string name="listview_footer_hint_ready">Release to Refresh</string>
+    <string name="listview_header_hint_loading">Loading</string>
+
+</resources>

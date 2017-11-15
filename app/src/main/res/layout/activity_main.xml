@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hzn.easypulllayoutjava.EasyPullLayoutJ
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/easy_pull_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:max_offset_top="120dp"
+    app:sticky_factor="0.7"
+    app:trigger_offset_top="60dp"
+    tools:context="com.hzn.easypulllayoutjava.MainActivity"
+    >
+
+    <com.hzn.easypulllayoutjava.TopRefreshView
+        android:id="@+id/top_refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_type="edge_top"
+        />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_type="content"
+        />
+
+</com.hzn.easypulllayoutjava.EasyPullLayoutJ>
